@@ -6,9 +6,18 @@ const userNumber = prompt('inserisci un numero di quattro cifre.');
 // Definisco la variabile sum per la somma dei numeri e la imposto a 0.
 let sum = 0;
 // Utilizzo il ciclo FOR per calcolare la somma delle quattro cifre.
-for(let i = 0; i < 4 ; i++) {
+for(let i = 0; i < userNumber.length ; i++) {
     sum += parseInt(userNumber[i]); 
 };
 // Stampo in console il numero inserito dall'utente e la sua somma.
 console.log(userNumber);
 console.log(sum);
+// Utilizzo il ciclo WHILE per calcolare la somma delle quattro cifre.
+// let i = 0;
+// while (i < userNumber.length) {
+//     sum += parseInt(userNumber[i]);
+//     i++;
+// };
+// Stampo in console il numero inserito dall'utente e la sua somma.
+// console.log(userNumber);
+// console.log(sum);
